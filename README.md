@@ -1,24 +1,39 @@
-# vue-tasks
+# Simple TODO App
 
-## Project setup
-```
-npm install
-```
+Это простое TODO-приложение, созданное с использованием Vue.js.  Позволяет загружать задачи и отмечать их как выполненные, сохраняя в localStorage. 
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Технологии
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- Vue.js 3
+- JavaScript
+- HTML
+- CSS
 
-### Lints and fixes files
-```
-npm run lint
-```
+## Установка
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1.  Клонируйте репозиторий:
+
+    ```bash
+    git clone https://github.com/IrinaKossova/my-vue-todo-app.git
+    cd my-vue-todo-app
+    ```
+
+2.  Установите зависимости:
+
+    ```bash
+    npm install
+    # или
+    yarn install
+    ```
+
+## Запуск
+
+```bash
+npm run dev
+# или
+yarn dev
+
+## Использование
+
+- Отметьте задачу как выполненную, щелкнув по чекбоксу.
+- Используйте фильтры "Все", "Выполненные" и "Невыполненные" для отображения задач.
